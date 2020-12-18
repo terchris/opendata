@@ -1,0 +1,26 @@
+{
+  "name": "opendata",
+  "version": "0.0.1",
+  "description": "For testing various open data sources",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terchris/opendata.git"
+  },
+  "keywords": [
+    "opendata"
+  ],
+  "author": "terje christensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terchris/opendata/issues"
+  },
+  "homepage": "https://github.com/terchris/opendata#readme"
+}
