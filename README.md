@@ -3,7 +3,7 @@
 # opendata
 Stuff for testing various open data services
 
-## geonorge
+## geonorge.no
 
 testing their API
 
@@ -14,6 +14,20 @@ It seems that the characters ø and é messes up he server.
 
 To test it read the howto.
 Select geonorgeAddressLookup in debugging and look at the debug console
+
+
+## brreg.no
+https://data.brreg.no/enhetsregisteret/api/docs/index.html
+
+tesing their API
+
+### brregOrganisasjonsnummerLookup.js
+Simple test of loking up ONE org number 
+https://data.brreg.no/enhetsregisteret/api/docs/index.html#enheter-oppslag
+
+To test read the howto. 
+Select brregOrganisasjonsnummerLookup
+ in debugging and look at the debug console 
 
 
 

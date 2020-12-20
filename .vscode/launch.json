@@ -12,6 +12,15 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/geonorge/geonorgeAddressLookup.js"
-        }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "brregOrganisasjonsnummerLookup",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/brreg/brregOrganisasjonsnummerLookup.js"
+        }        
     ]
 }
