@@ -21,6 +21,18 @@ https://data.brreg.no/enhetsregisteret/api/docs/index.html
 
 tesing their API
 
+
+### brregNameSearch.js
+Simple test of searcing using name of organization.
+Shows that if you send organization names that contain Norwegian letters like SNØHETTA to their API
+Then their server will reply with a status:400 statusText:Bad request
+It seems that the character ø  messes up he server.
+
+
+To test read the howto. 
+Select brregNameSearch
+ in debugging and look at the debug console 
+
 ### brregOrganisasjonsnummerLookup.js
 Simple test of loking up ONE org number 
 https://data.brreg.no/enhetsregisteret/api/docs/index.html#enheter-oppslag

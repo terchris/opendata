@@ -21,6 +21,15 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/brreg/brregOrganisasjonsnummerLookup.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "brregNameSearch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/brreg/brregNameSearch.js"
         }        
     ]
 }
