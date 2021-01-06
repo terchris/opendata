@@ -77,7 +77,7 @@ async function brregNameSearch(orgNameArray) {
             orgNameSearchTxt = orgNameSearchTxt.toUpperCase(); //make uppercase
             orgNameSearchTxt = orgNameSearchTxt.trim(); //remove blanks
     
-            orgNameSearchTxt = orgNameSearchTxt.replace(/ /g, "%20"); //replace space
+            orgNameSearchTxt = encodeURIComponent(orgNameSearchTxt); // encode it correctly
     
             brregRequestURL = BRREG_ENHETER_URL + "?navn=" + orgNameSearchTxt;
 

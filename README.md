@@ -8,9 +8,7 @@ Stuff for testing various open data services
 testing their API
 
 ### geonorgeAddressLookup.js
-Shows that if you send adresses like Snarøyveien 30 or Gaustadalléen 21 to their API
-Then their server will reply with a status:500 statusText:INTERNAL SERVER ERROR
-It seems that the characters ø and é messes up he server.
+Simple test to search using an address.
 
 To test it read the howto.
 Select geonorgeAddressLookup in debugging and look at the debug console
@@ -24,9 +22,6 @@ tesing their API
 
 ### brregNameSearch.js
 Simple test of searcing using name of organization.
-Shows that if you send organization names that contain Norwegian letters like SNØHETTA to their API
-Then their server will reply with a status:400 statusText:Bad request
-It seems that the character ø  messes up he server.
 
 
 To test read the howto. 

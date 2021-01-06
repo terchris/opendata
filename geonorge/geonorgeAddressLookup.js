@@ -18,7 +18,7 @@ const addressArray = [
         "zipcode": "7034"
     },
     {
-        "comment": "Telenor official address is creating a 500 response",
+        "comment": "Telenor official address",
         "road": "Snarøyveien 30",
         "zipcode": "1331"
     },
@@ -49,8 +49,8 @@ async function geonorgeAddressLookup(addressArray) {
     let statusText = "";
 
     console.log("Looping " + totAdresses + " adresses (simple version)")
-    for (let i = 0; i < totAdresses; i++) {
-        let road = addressArray[i].road.replace(" ", "%20"); //replace space
+    for (let i = 0; i < totAdresses; i++) {        
+        let road = encodeURIComponent(addressArray[i].road); // encode it correctly
         let zipcode = addressArray[i].zipcode;
         geonorgeRequestURL = GEONORGE_ADRESS_URL + "adressetekst=" + road + "&postnummer=" + zipcode
         data = "none";
